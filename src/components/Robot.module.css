@@ -1,0 +1,228 @@
+.robotp{
+  font-family: "Press Start 2P", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 20%;
+  left: 35%;
+}
+.robotPage {
+    position: relative;
+    width: 100%;
+    height: 110vh;
+  }
+  
+  .robotPageImg {
+    width: 100%;
+    height: 260vh;
+    object-fit: cover;
+  }
+  .header {
+    position: absolute; 
+    top: 0;             
+    left: 0;            
+    width: 100%;       
+    z-index: 10;       
+  }
+.robotp1{
+  font-family: "Press Start 2P", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  color: rgba(239, 218, 63, 0.97);
+  position: absolute;
+  top: 30%;
+  left: 23%;
+}
+.robotp2{
+    font-size: 25px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    text-align: center;
+    font-family: "Roboto Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    left: 23%;
+    top: 40%;
+}
+.robotvalues9{
+    width: 13.8vw;
+    height: 33.3vh;
+}
+.robotvalues10{
+    width: 23.8vw;
+    height: 33.3vh;
+}
+.robotvalues16{
+    width: 13.4vw;
+    height: 33.3vh;
+}
+.robotimgs{
+    position: absolute;
+    left: 23%;
+    display: flex;
+    gap: 20px;
+    top: 50%;
+}
+.robotp3{
+    font-size: 30px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    text-align: center;
+    font-family: "Roboto Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    left: 17%;
+    top: 85%;
+}
+.robotp4{
+  font-family: "Press Start 2P", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 45px;
+  color: rgba(239, 218, 63, 0.97);
+  position: absolute;
+  top: 115%;
+  left: 23%;
+}
+.divrobotimg{
+    width: 30.3vw;
+    height: 40vh;
+}
+.divrobot0{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    position: absolute;
+    top: 130%;
+    left: 13%;
+}
+.divrobot1p{
+    font-size: 25px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    text-align: center;
+    font-family: "Roboto Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    width: 48.4vw;
+}
+.robotbtn{
+    width: 31.3vw;
+    height: 11.3vh;
+    background-color: rgba(222, 109, 40, 1);
+    border-radius: 20px;
+    margin-top: 200px;
+}
+.robotbtnp{
+    font-family: "Neucha", serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    font-style: normal;
+}
+.divrobot1{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+.robotp5{
+    font-family: "Press Start 2P", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 45px;
+  color: rgba(239, 218, 63, 0.97);
+  position: absolute;
+  top: 175%;
+  left: 40%;
+}
+.robot2img{
+    width: 20.33vw;
+    height: 26.6vh;
+}
+.robot3img{
+    width: 20.33vw;
+    height: 26.6vh;
+}
+.robot4img{
+    width: 20.33vw;
+    height: 26.6vh;
+}
+/* .divrobot2{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+} */
+.divrobotpar{
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(3, 380px);
+    left: 13%;
+    top: 190%;
+}
+.divrobot2{
+    display: flex;
+    flex-direction: column;
+}
+.divrobot3{
+    display: flex;
+    flex-direction: column;
+}
+.divrobot4{
+    display: flex;
+    flex-direction: column;
+}
+.robotbtn2{
+    width: 17.8vw;
+    height: 6.8vh;
+    background-color: rgba(222, 109, 40, 1);
+    border-radius: 20px;
+    border: none;
+    margin-top: 40px;
+}
+.robotbtnp2{
+    font-family: "Neucha", serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    font-style: normal;
+}
+.robotbtn3{
+    width: 17.8vw;
+    height: 6.8vh;
+    background-color: rgba(222, 109, 40, 1);
+    border-radius: 20px;
+    border: none;
+    margin-top: 40px;
+}
+.robotbtn4{
+    width: 17.8vw;
+    height: 6.8vh;
+    background-color: rgba(222, 109, 40, 1);
+    border-radius: 20px;
+    border: none;
+    margin-top: 40px;
+}
+.robotbtnp3{
+    font-family: "Neucha", serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    font-style: normal;
+}
+.robotbtnp4{
+    font-family: "Neucha", serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    font-style: normal;
+}

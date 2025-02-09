@@ -1,0 +1,596 @@
+.aboutPage {
+    position: relative;
+    width: 100%;
+    height: 110vh;
+  }
+  
+  .aboutPageImg {
+    width: 100%;
+    height: 740vh;
+    object-fit: cover;
+  }
+  .header {
+    position: absolute; 
+    top: 0;             
+    left: 0;            
+    width: 100%;       
+    z-index: 10;       
+  }
+.abouth1{
+  font-family: "Press Start 2P", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 20%;
+  left: 25%;
+}
+.aboutp{
+  font-family: "Press Start 2P", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 35px;
+  color: rgba(239, 218, 63, 0.97);
+  position: absolute;
+  top: 35%;
+  left: 22%;
+  text-align: center;
+}
+.divp{
+    margin: auto;
+}
+.divg{
+    top: 45%;
+    left: 13%;
+    position: absolute;
+    opacity: 2;
+    width: 75vw;
+    height: 57vh;
+    background: linear-gradient(90deg, rgba(30, 153, 161, 1) 0%, rgba(11, 56, 59, 0.24) 100%);
+    box-shadow: 2px 2px 2px black;
+}
+.divgp{
+    font-size: 28px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    text-align: center;
+    font-family: "Roboto Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    left: 5%;
+    right: 5%;
+    top: 10%;
+}
+.divgp2{
+    font-family: "Roboto Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    left: 5%;
+    right: 5%;
+    font-size: 28px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    text-align: center;
+    top: 42%;
+}
+.divgp3{
+    font-family: "Roboto Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    left: 5%;
+    right: 5%;
+    font-size: 28px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    text-align: center;
+    top: 70%;
+}
+.divp3{
+    font-family: "Press Start 2P", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+    color: rgba(239, 218, 63, 0.97);
+    position: absolute;
+    top: 105%;
+    left: 22%;
+    text-align: center;
+}
+.divg0{
+    top: 115%;
+    left: 13%;
+    position: absolute;
+    opacity: 2;
+    width: 49vw;
+    height: 13vh;
+    background: linear-gradient(90deg, rgba(185, 99, 46, 1) 0%, rgba(241, 226, 118, 0.55) 100%);
+    box-shadow: 2px 2px 2px black;
+}
+.divgp0{
+    text-align: center;
+    position: absolute;
+    font-family: "Rubik Mono One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.97);
+    top: 30%;
+    left: 5%;
+}
+.divp2p{
+    font-family: "Press Start 2P", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgba(255, 255, 255, 0.97);
+    font-size: 30px;
+    position: absolute;
+    top: 135%;
+    left: 13%;
+}
+.values1{
+    width: 25.07vw;
+    height: 28.26vh;
+}
+.values2{
+    width: 25.07vw;
+    height: 28.26vh;
+}
+.values3{
+    width: 25.07vw;
+    height: 28.26vh;
+}
+.imgs{
+    position: absolute;
+    left: 13%;
+    display: grid;
+    top: 150%;
+    grid-template-columns: repeat(3, 400px);
+}
+.divp2p0{
+    font-family: "Roboto Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    left: 13%;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    text-align: center;
+    top: 180%;
+}
+.divp2p1{
+    font-family: "Roboto Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    left: 13%;
+    font-size: 27px;
+    color: rgba(212, 193, 52, 1);
+    position: absolute;
+    text-align: center;
+    top: 200%;
+}
+.divp2p2{
+    font-family: "Roboto Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    left: 13%;
+    font-size: 27px;
+    color: rgba(212, 193, 52, 1);
+    position: absolute;
+    text-align: center;
+    top: 205%;
+}
+.divp2p3{
+    font-family: "Roboto Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    left: 13%;
+    font-size: 27px;
+    color: rgba(212, 193, 52, 1);
+    position: absolute;
+    text-align: center;
+    top: 210%;
+}
+
+.divg1{
+    top: 225%;
+    left: 13%;
+    position: absolute;
+    opacity: 2;
+    width: 49vw;
+    height: 13vh;
+    background: linear-gradient(90deg, rgba(185, 99, 46, 1) 0%, rgba(241, 226, 118, 0.55) 100%);
+    box-shadow: 2px 2px 2px black;
+}
+.divgp1{
+    text-align: center;
+    position: absolute;
+    font-family: "Rubik Mono One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.97);
+    top: 30%;
+    left: 5%;
+}
+.divp3p{
+    font-family: "Press Start 2P", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgba(255, 255, 255, 0.97);
+    font-size: 30px;
+    position: absolute;
+    top: 243%;
+    left: 13%;
+}
+.values4{
+    width: 16.11vw;
+    height: 40.028vh;
+}
+.values5{
+    width: 28.63vw;
+    height: 40vh;
+}
+.values6{
+    width: 16.11vw;
+    height: 40.028vh;
+}
+.imgs1{
+    position: absolute;
+    left: 17%;
+    display: flex;
+    gap: 20px;
+    top: 255%;
+}
+.divp3p0{
+    font-family: "Roboto Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    left: 5%;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    text-align: center;
+    top: 295%;
+}
+.divp3p1{
+    font-family: "Roboto Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    left: 13%;
+    font-size: 27px;
+    color: rgba(212, 193, 52, 1);
+    position: absolute;
+    text-align: center;
+    top: 315%;
+}
+.divp3p2{
+    font-family: "Roboto Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    left: 13%;
+    font-size: 27px;
+    color: rgba(212, 193, 52, 1);
+    position: absolute;
+    text-align: center;
+    top: 320%;
+}
+.divp3p3{
+    font-family: "Roboto Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    left: 13%;
+    font-size: 27px;
+    color: rgba(212, 193, 52, 1);
+    position: absolute;
+    text-align: center;
+    top: 325%;
+}
+
+.divnew{
+    top: 340%;
+    left: 13%;
+    position: absolute;
+    opacity: 2;
+    width: 49vw;
+    height: 13vh;
+    background: linear-gradient(90deg, rgba(185, 99, 46, 1) 0%, rgba(241, 226, 118, 0.55) 100%);
+    box-shadow: 2px 2px 2px black;
+}
+.divnew2{
+    text-align: center;
+    position: absolute;
+    font-family: "Rubik Mono One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.97);
+    top: 20%;
+    left: 5%;
+}
+.divnewp{
+    font-family: "Press Start 2P", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgba(255, 255, 255, 0.97);
+    font-size: 30px;
+    position: absolute;
+    top: 360%;
+    left: 13%;
+}
+.values7{
+    width: 23vw;
+    height: 33.33vh;
+}
+.values8{
+    width: 23vw;
+    height: 33.33vh;
+}
+.values9{
+    width: 23vw;
+    height: 33.33vh;
+}
+.imgsnew{
+    position: absolute;
+    left: 13%;
+    display: flex;
+    gap: 20px;
+    top: 370%;
+}
+.div4pnew{
+    font-family: "Roboto Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    left: 13%;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    text-align: center;
+    top: 405%;
+}
+.divnew6p1{
+    font-family: "Roboto Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    left: 13%;
+    font-size: 27px;
+    color: rgba(212, 193, 52, 1);
+    position: absolute;
+    text-align: center;
+    top: 427%;
+}
+.divnew6p2{
+    font-family: "Roboto Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    left: 13%;
+    font-size: 27px;
+    color: rgba(212, 193, 52, 1);
+    position: absolute;
+    text-align: center;
+    top: 432%;
+}
+.divnewp6p3{
+    font-family: "Roboto Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    left: 13%;
+    font-size: 27px;
+    color: rgba(212, 193, 52, 1);
+    position: absolute;
+    text-align: center;
+    top: 437%;
+}
+
+.divprelast{
+    top: 450%;
+    left: 13%;
+    position: absolute;
+    opacity: 2;
+    width: 49vw;
+    height: 13vh;
+    background: linear-gradient(90deg, rgba(185, 99, 46, 1) 0%, rgba(241, 226, 118, 0.55) 100%);
+    box-shadow: 2px 2px 2px black;
+}
+.divprelast2{
+    text-align: center;
+    position: absolute;
+    font-family: "Rubik Mono One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.97);
+    top: 30%;
+    left: 5%;
+}
+.divprelastp{
+    font-family: "Press Start 2P", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgba(255, 255, 255, 0.97);
+    font-size: 30px;
+    position: absolute;
+    top: 470%;
+    left: 13%;
+}
+.values10{
+    width: 13.8vw;
+    height: 33.33vh;
+}
+.values11{
+    width: 17.3vw;
+    height: 33.33vh;
+}
+.values12{
+    width: 16vw;
+    height: 33.33vh;
+}
+.values13{
+    width: 22vw;
+    height: 33.33vh;
+}
+.imgsprelast{
+    position: absolute;
+    left: 13%;
+    display: flex;
+    gap: 20px;
+    top: 480%;
+}
+.div4prenew{
+    font-family: "Roboto Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    left: 13%;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    text-align: center;
+    top: 515%;
+}
+.divprenew6p1{
+    font-family: "Roboto Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    left: 13%;
+    font-size: 27px;
+    color: rgba(212, 193, 52, 1);
+    position: absolute;
+    text-align: center;
+    top: 535%;
+}
+.divprenew6p2{
+    font-family: "Roboto Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    left: 13%;
+    font-size: 27px;
+    color: rgba(212, 193, 52, 1);
+    position: absolute;
+    text-align: center;
+    top: 540%;
+}
+.divprenewp6p3{
+    font-family: "Roboto Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    left: 13%;
+    font-size: 27px;
+    color: rgba(212, 193, 52, 1);
+    position: absolute;
+    text-align: center;
+    top: 545%;
+}
+
+.divlast{
+    top: 560%;
+    left: 13%;
+    position: absolute;
+    opacity: 2;
+    width: 49vw;
+    height: 13vh;
+    background: linear-gradient(90deg, rgba(185, 99, 46, 1) 0%, rgba(241, 226, 118, 0.55) 100%);
+    box-shadow: 2px 2px 2px black;
+}
+.divlast2{
+    text-align: center;
+    position: absolute;
+    font-family: "Rubik Mono One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.97);
+    top: 30%;
+    left: 5%;
+}
+.divlastp{
+    font-family: "Press Start 2P", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgba(255, 255, 255, 0.97);
+    font-size: 30px;
+    position: absolute;
+    top: 579%;
+    left: 13%;
+}
+.values14{
+    width: 13.8vw;
+    height: 33.33vh;
+}
+.values15{
+    width: 23.8vw;
+    height: 33.33vh;
+}
+.imgslast{
+    position: absolute;
+    left: 13%;
+    display: flex;
+    gap: 20px;
+    top: 595%;
+}
+.div4last{
+    font-family: "Roboto Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    left: 13%;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    text-align: center;
+    top: 635%;
+}
+.divlast6p1{
+    font-family: "Roboto Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    left: 13%;
+    font-size: 27px;
+    color: rgba(212, 193, 52, 1);
+    position: absolute;
+    text-align: center;
+    top: 655%;
+}
+.divlast6p2{
+    font-family: "Roboto Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    left: 13%;
+    font-size: 27px;
+    color: rgba(212, 193, 52, 1);
+    position: absolute;
+    text-align: center;
+    top: 660%;
+}
+.divlastp6p3{
+    font-family: "Roboto Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    left: 13%;
+    font-size: 27px;
+    color: rgba(212, 193, 52, 1);
+    position: absolute;
+    text-align: center;
+    top: 665%;
+}

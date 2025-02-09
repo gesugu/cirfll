@@ -1,0 +1,36 @@
+.headerPage {
+    width: 100vw;
+    height: 8.6vh;
+    background-color: rgba(236, 240, 246, 1);
+    display: flex;
+    align-items: center; /* Центрируем содержимое по вертикали */
+    justify-content: flex-start; /* Левое выравнивание содержимого */
+    padding: 0 20px; /* Отступы для содержания */
+  }
+  
+  .headerPageParentDP {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 12vw;
+    height: 8vh;
+    z-index: 10;
+  }
+  .nav4l{
+    text-decoration: none;
+    list-style: none;
+    color: rgba(170, 65, 0, 1);
+    font-size: 30px;
+    font-family: "Neucha", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .navParent{
+    display: flex;
+    justify-content: flex-end;
+    gap: 90px;
+    margin-left: 400px;
+    margin-right: 0;
+  }

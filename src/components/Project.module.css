@@ -1,0 +1,193 @@
+.projectp{
+    font-family: "Press Start 2P", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 20%;
+    left: 25%;
+  }
+  .projectPage {
+      position: relative;
+      width: 100%;
+      height: 110vh;
+    }
+    
+    .projectPageImg {
+      width: 100%;
+      height: 300vh;
+      object-fit: cover;
+    }
+    .header {
+      position: absolute; 
+      top: 0;             
+      left: 0;            
+      width: 100%;       
+      z-index: 10;       
+    }
+.projectp1{
+  font-family: "Press Start 2P", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  color: rgba(239, 218, 63, 0.97);
+  position: absolute;
+  top: 30%;
+  left: 25%;
+}
+.project1{
+    width: 31.8vw;
+    height: 33.3vh;
+}
+.project2{
+    width: 31.8vw;
+    height: 33.3vh;
+}
+.project3{
+    width: 31.8vw;
+    height: 33.3vh;
+}
+.project4{
+    width: 31.8vw;
+    height: 33.3vh;
+}
+.project5{
+    width: 31.8vw;
+    height: 33.3vh;
+}
+.project6{
+    width: 31.8vw;
+    height: 33.3vh;
+}
+.project7{
+    width: 31.8vw;
+    height: 33.3vh;
+}
+.project8{
+    width: 31.8vw;
+    height: 33.3vh;
+}
+.projectsimgs{
+    display: flex;
+    gap: 40px;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+}
+.projectp2{
+  font-family: "Press Start 2P", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  color: rgba(239, 218, 63, 0.97);
+  position: absolute;
+  top: 85%;
+  left: 15%;
+}
+.projectp3{
+    font-size: 30px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    text-align: center;
+    font-family: "Roboto Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    left: 23%;
+    top: 90%;
+}
+.project0p1{
+    font-size: 30px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    text-align: center;
+    font-family: "Roboto Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    left: 23%;
+    top: 102%;
+}
+.project0p2{
+    font-size: 30px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    text-align: center;
+    font-family: "Roboto Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    left: 23%;
+    top: 107%;
+}
+.project0p3{
+    font-size: 30px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    text-align: center;
+    font-family: "Roboto Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    left: 23%;
+    top: 112%;
+}
+.projectp4{
+    font-family: "Press Start 2P", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  color: rgba(239, 218, 63, 0.97);
+  position: absolute;
+  top: 120%;
+  left: 15%;
+}
+.projecthalf1{
+    display: flex;
+    flex-direction: column;
+    top: 130%;
+    gap: 40px;
+}
+.projecthalf2{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    top: 130%;
+}
+.divprojects{
+    position: absolute;
+    display: flex;
+    gap: 80px;
+    top: 130%;
+    left: 20%;
+}
+.projectp5{
+    font-family: "Press Start 2P", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  color: rgba(239, 218, 63, 0.97);
+  position: absolute;
+  top: 205%;
+  left: 15%;
+}
+.projectsimgs2{
+    position: absolute;
+    display: flex;
+    gap: 80px;
+    top: 215%;
+    left: 20%;
+}
+.projecto02{
+    font-size: 30px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    text-align: center;
+    font-family: "Roboto Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    left: 20%;
+    top: 250%;
+}

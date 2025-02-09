@@ -1,0 +1,50 @@
+.planetsPageItems{
+    width: 25vw;
+    height: 34vh;
+  }
+  .planetsPageImgItems{
+    width: 25vw;
+    height: 34vh;
+  }
+  .planetsPageDivP{
+    width: 25vw;
+    height: 5vh;
+    background-color: red;
+  }
+  .planetsOnePage{
+    display: grid;
+    grid-template-columns: repeat(3, 500px);
+    gap: 50px;
+  }
+  .planetsPage{
+    background-color: midnightblue;
+    width: 100vw;
+    height: 500vh;
+  }
+  .planetsPageOneP{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    font-family: "Agdasima", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-top: 10px;
+  }
+
+  @media screen and (max-width: 400px){
+    .planetsPage{
+      height: 100%;
+    }
+    .planetsPageImgItems{
+      width: 60vw;
+    margin-left: 70px;
+    }
+    .planetsPageDivP{
+      width: 60vw;
+    margin-left: 70px;
+    }
+    .planetsOnePage{
+      display: flex;
+      flex-direction: column;
+    }
+  }

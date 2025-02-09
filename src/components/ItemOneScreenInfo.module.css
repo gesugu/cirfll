@@ -1,0 +1,50 @@
+.ItemOneScreenInfoP{
+    font-size: 120px;
+}
+.mainPageItems{
+    width: 25vw;
+    height: 34vh;
+  }
+  .onePageImg{
+    width: 25vw;
+    height: 34vh;
+  }
+  .mainPageDivP{
+    width: 25vw;
+    height: 5vh;
+    background-color: red;
+  }
+  .onePageParents{
+    display: grid;
+  grid-template-columns: repeat(3, 500px);
+  gap: 50px;
+  background-color: midnightblue;
+  width: 100vw;
+  height: 100vh;
+  }
+  .onePageP{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    font-family: "Agdasima", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-top: 10px;
+  }
+  .OnePageItems{
+    margin-top: 20px;
+  }
+
+  @media screen and (max-width: 400px){
+    .onePageImg{
+      width: 60vw;
+      margin-left: 70px;
+    }
+    .mainPageDivP{
+      width: 60vw;
+      margin-left: 70px;
+    }
+    .onePage{
+      height: 100%;
+    }
+  }
