@@ -1,11 +1,11 @@
 .headerPage {
-    width: 100vw;
+    width: 100%;
     height: 8.6vh;
     background-color: rgba(236, 240, 246, 1);
     display: flex;
     align-items: center; /* Центрируем содержимое по вертикали */
     justify-content: flex-start; /* Левое выравнивание содержимого */
-    padding: 0 20px; /* Отступы для содержания */
+    padding: 0; /* Отступы для содержания */
   }
   
   .headerPageParentDP {
@@ -33,4 +33,22 @@
     gap: 90px;
     margin-left: 400px;
     margin-right: 0;
+  }
+
+  @media screen and (max-width: 450px){
+    .headerPage{
+      max-width: 450px;
+    }
+    .logo{
+      width: 72px;
+      height: 26px;
+    }
+    .navParent{
+      margin: 0;
+      gap: 15px;
+      margin-left: 40px;
+    }
+    .nav4l{
+      font-size: 15px;
+    }
   }

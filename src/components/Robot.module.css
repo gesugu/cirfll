@@ -226,3 +226,94 @@
     text-align: center;
     font-style: normal;
 }
+
+@media screen and (max-width: 450px){
+    .robotPageImg{
+        max-width: 450px;
+        height: 130vh;
+    }
+    .robotp{
+        font-size: 20px;
+        top: 13%;
+    }
+    .robotp1{
+        font-size: 12px;
+        top: 17%;
+    }
+    .robotp2{
+        font-size: 12px;
+        top: 23%;
+        left: 5%;
+    }
+    .robotvalues9, .robotvalues10, .robotvalues16{
+        width: 97px;
+        height: 73px;
+    }
+    .robotimgs{
+        top: 29%;
+        left: 13%;
+    }
+    .robotp3{
+        font-size: 12px;
+        top: 39%;
+        left: 5%;
+    }
+    .robotp4{
+        font-size: 20px;
+        top: 53%;
+    }
+    .divrobotimg{
+        width: 97px;
+        height: 73px;
+    }
+    .divrobot1p{
+        font-size: 12px;
+    }
+    .divrobot0{
+        top: 60%;
+    }
+    .robotbtn{
+        width: 120px;
+        height: 50px;
+        margin-top: 150px;
+        left: 20%;
+    }
+    .robotbtnp{
+        font-size: 10px;
+    }
+    .robotp5{
+        font-size: 20px;
+        top: 83%;
+    }
+    .robot2img, .robot3img, .robot4img{
+        width: 97px;
+        height: 73px;
+    }
+    .robotbtnp2{
+        font-size: 10px;
+    }
+    .robotbtnp3{
+        font-size: 10px;
+    }
+    .robotbtnp4{
+        font-size: 10px;
+    }
+    .robotbtn2{
+        width: 120px;
+        height: 50px;
+    }
+    .robotbtn3{
+        width: 120px;
+        height: 50px;
+    }
+    .robotbtn4{
+        width: 120px;
+        height: 50px;
+    }
+    .divrobotpar{
+        top: 87%;
+        display: grid;
+        grid-template-columns: repeat(3, 140px);
+        left: 5%;
+    }
+}

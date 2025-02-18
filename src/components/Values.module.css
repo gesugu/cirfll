@@ -594,3 +594,283 @@
     text-align: center;
     top: 665%;
 }
+
+@media screen and (max-width: 450px){
+    .abouth1{
+        font-size: 17px;
+        top: 13%;
+    }
+    .aboutp{
+        font-size: 14px;
+        left: 10%;
+        top: 20%;
+    }
+    .divg{
+        width: 388px;
+        height: 327px;
+        top: 25%;
+        left: 5%;
+    }
+    .divgp{
+        font-size: 14px;
+    }
+    .divgp2{
+        font-size: 14px;
+    }
+    .divgp3{
+        font-size: 14px;
+    }
+    .divp3{
+        font-size: 14px;
+        top: 60%;
+        left: 10%;
+    }
+    .divg0{
+        width: 282.45px;
+        height: 40px;
+        top: 64%;
+        left: 5%;
+    }
+    .divgp0{
+        font-size: 11px;
+    }
+    .divp2p{
+        font-size: 10px;
+        top: 70%;
+        left: 5%;
+    }
+    .values1, .values2, .values3{
+        width: 120.52px;
+        height: 73px;
+    }
+    .imgs{
+        display: grid;
+        grid-template-columns: repeat(3, 135px);
+        left: 5%;
+        top: 75%;
+    }
+    .divp2p0{
+        font-size: 10px;
+        top: 84%;
+        left: 5%;
+    }
+    .divp2p1{
+        font-size: 11px;
+        top: 90%;
+        left: 5%;
+    }
+    .divp2p2{
+        font-size: 11px;
+        top: 93%;
+        left: 5%;
+    }
+    .divp2p3{
+        font-size: 11px;
+        top: 96%;
+        left: 2%;
+    }
+
+
+    .divgp1{
+        font-size: 11px;
+    }
+    .divg1{
+        top: 100%;
+        left: 5%;
+        width: 282.45px;
+        height: 40px;
+    }
+    .divp3p{
+        font-size: 10px;
+        top: 106%;
+        left: 5%;
+    }
+    .values4, .values5, .values6{
+        width: 120.52px;
+        height: 73px;
+    }
+    .imgs1{
+        display: grid;
+        grid-template-columns: repeat(3, 135px);
+        left: 5%;
+        top: 111%;
+    }
+    .divp3p0{
+        font-size: 10px;
+        top: 121%;
+        left: 5%;
+    }
+    .divp3p1{
+        font-size: 11px;
+        top: 128%;
+        left: 5%;
+    }
+    .divp3p2{
+        font-size: 11px;
+        top: 131%;
+        left: 5%;
+    }
+    .divp3p3{
+        font-size: 11px;
+        top: 134%;
+        left: 2%;
+    }
+
+
+    .divnew2{
+        font-size: 11px;
+    }
+    .divnew{
+        top: 138%;
+        left: 5%;
+        width: 282.45px;
+        height: 40px;
+    }
+    .divnewp{
+        font-size: 10px;
+        top: 144%;
+        left: 5%;
+    }
+    .values7, .values8, .values9{
+        width: 120.52px;
+        height: 73px;
+    }
+    .imgsnew{
+        display: grid;
+        grid-template-columns: repeat(3, 135px);
+        left: 5%;
+        top: 147%;
+    }
+    .div4pnew{
+        font-size: 10px;
+        top: 156%;
+        left: 5%;
+    }
+    .divnew6p1{
+        font-size: 11px;
+        top: 161%;
+        left: 5%;
+    }
+    .divnew6p2{
+        font-size: 11px;
+        top: 164%;
+        left: 5%;
+    }
+    .divnewp6p3{
+        font-size: 11px;
+        top: 167%;
+        left: 2%;
+    }
+
+
+    .divprelast2{
+        font-size: 11px;
+    }
+    .divprelast{
+        top: 172%;
+        left: 5%;
+        width: 282.45px;
+        height: 40px;
+    }
+    .divprelastp{
+        font-size: 10px;
+        top: 178%;
+        left: 5%;
+    }
+    .values10{
+        width: 56px;
+        height: 73px;
+    }
+    .values11{
+        width: 71;
+        height: 73px;
+    }
+    .values12{
+        width: 65px;
+        height: 73px;
+    }
+    .values13{
+        width: 90px;
+        height: 73px;
+    }
+    .imgsprelast{
+        display: grid;
+        grid-template-columns: repeat(4, 80px);
+        left: 5%;
+        top: 181%;
+    }
+    .div4prenew{
+        font-size: 10px;
+        top: 190%;
+        left: 5%;
+    }
+    .divprenew6p1{
+        font-size: 11px;
+        top: 195%;
+        left: 5%;
+    }
+    .divprenew6p2{
+        font-size: 11px;
+        top: 197%;
+        left: 5%;
+    }
+    .divprenewp6p3{
+        font-size: 11px;
+        top: 200%;
+        left: 2%;
+    }
+
+
+    .divlast2{
+        font-size: 11px;
+    }
+    .divlast{
+        top: 205%;
+        left: 5%;
+        width: 282.45px;
+        height: 40px;
+    }
+    .divlastp{
+        font-size: 10px;
+        top: 211%;
+        left: 5%;
+    }
+    .values14{
+        width: 120.52;
+        height: 73px;
+    }
+    .values15{
+        width: 120.52;
+        height: 73px;
+    }
+    .imgslast{
+        display: grid;
+        grid-template-columns: repeat(2, 100px);
+        left: 5%;
+        top: 215%;
+    }
+    .div4last{
+        font-size: 10px;
+        top: 224%;
+        left: 5%;
+    }
+    .divlast6p1{
+        font-size: 11px;
+        top: 229%;
+        left: 5%;
+    }
+    .divlast6p2{
+        font-size: 11px;
+        top: 232%;
+        left: 5%;
+    }
+    .divlastp6p3{
+        font-size: 11px;
+        top: 235%;
+        left: 2%;
+    }
+    .aboutPageImg{
+        height: 280vh;
+        max-width: 450px;
+    }
+}

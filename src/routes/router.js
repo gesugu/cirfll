@@ -6,6 +6,7 @@ import About from "../components/About"
 import Values from "../components/Values"
 import Robot from "../components/Robot"
 import Project from "../components/Project"
+import FirstPage from "../components/FirstPage"
 
 export const routes = [
     {path: '/', element: <MainPage/>},
@@ -16,4 +17,5 @@ export const routes = [
     {path: '/values', element: <Values/>},
     {path: '/robot', element: <Robot/>},
     {path: '/project', element: <Project/>},
+    {path: '/firstpage', element: <FirstPage/>},
 ]

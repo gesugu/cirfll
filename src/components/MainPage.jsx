@@ -24,15 +24,17 @@ const MainPage = () => {
             <img className={classes.mainPageImg} src={bcg} alt={bcg} />
             <img className={classes.logo} src={logo} alt={logo} />
             <div className={classes.h1Main}>
-            <h1>Добро пожаловать!</h1>
+            <h1 className={classes.h1Mainh}><span>Добро</span> <span>пожаловать!</span></h1>
             </div>
+            <div className={classes.divG61}>
             <div className={classes.divG}>
                 <h2 className={classes.h2G}><Link className={classes.link} to="/about">О команде</Link></h2>
                 <img className={classes.logoG} src={logo} alt={logo} />
             </div>
             <div className={classes.divG1}>
-                <h2 className={classes.h2G1}><Link className={classes.link2} to="">О FIRST</Link></h2>
+                <h2 className={classes.h2G1}><Link className={classes.link2} to="/firstpage">О FIRST</Link></h2>
                 <img className={classes.logoG1} src={first} alt={first} />
+            </div>
             </div>
             <div className={classes.parentsMain0}>
             <div className={classes.parents0}>

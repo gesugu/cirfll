@@ -17,6 +17,7 @@ import aslan from "../images/aslan.png"
 import abylai from "../images/abylai.png"
 import bakhtiar from "../images/bakhtiar.png"
 import marcel from "../images/marcel.png"
+import mentor1 from "../images/mentor1.png"
 
 const About = () => {
     const [input, setInput] = useState('');
@@ -41,6 +42,9 @@ const About = () => {
                     <div className={classes.mentor2}>
                     <img className={classes.mentor2Img} src={ruslan} alt={ruslan} />
                     </div>
+                    <div className={classes.mentor3}>
+                    <img className={classes.mentor3Img} src={mentor1} alt={mentor1} />
+                    </div>
                 </div>
                 <div className={classes.part0}>
                 <img className={classes.part0Img} src={bakhtiar} alt={bakhtiar} />
@@ -53,10 +57,10 @@ const About = () => {
                     <img className={classes.part1Img} src={akhan} alt={akhan} />
                     </div>
                     <div className={classes.part2}>
-                    <img className={classes.part2Img} src={adiya} alt={adiya} />
+                    <img className={classes.part2Img} src={me} alt={me} />
                     </div>
                     <div className={classes.part3}>
-                    <img className={classes.part3Img} src={me} alt={me} />
+                    <img className={classes.part3Img} src={adiya} alt={adiya} />
                     </div>
                     <div className={classes.part4}>
                     <img className={classes.part4Img} src={tair} alt={tair} />

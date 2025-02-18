@@ -9,6 +9,7 @@ import About from "./components/About"
 import Values from "../src/components/Values"
 import Robot from "../src/components/Robot"
 import Project from "../src/components/Project"
+import FirstPage from "../src/components/FirstPage"
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/values" element={<Values />} />
           <Route path="/robot" element={<Robot />} />
           <Route path="/project" element={<Project />} />
+          <Route path="/firstpage" element={<FirstPage />} />
         </Routes>
       </BrowserRouter>
     </div>

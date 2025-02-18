@@ -97,3 +97,43 @@
   list-style: none;
   color: white;
 }
+
+@media screen and (max-width: 450px){
+  .mainPageImg{
+    max-width: 450px;
+    height: 100%;
+  }
+  .h1Mainh{
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+  .divG61{
+    display: flex;
+    flex-direction: column;
+  }
+  .h2G{
+    font-size: 20px;
+  }
+  .h2G1{
+    font-size: 20px;
+  }
+  .logoG{
+    width: 117px;
+    height: 41px;
+  }
+  .logoG1{
+    width: 62px;
+    height: 46px;
+  }
+  .logo{
+    width: 142px;
+    height: 41px;
+  }
+}
+
+/* @media (max-width: 450px){
+
+} */

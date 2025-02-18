@@ -191,3 +191,74 @@
     left: 20%;
     top: 250%;
 }
+
+@media screen and (max-width: 450px){
+    .projectPageImg{
+        max-width: 450px;
+        height: 130vh;
+    }
+    .projectp{
+        font-size: 20px;
+        top: 13%;
+    }
+    .projectp1{
+        font-size: 12px;
+        top: 20%;
+    }
+    .project1, .project2{
+        width: 99px;
+        height: 73px;
+    }
+    .projectsimgs{
+        top: 28%;
+    }
+    .projectp2{
+        font-size: 12px;
+        top: 38%;
+        left: 5%;
+    }
+    .projectp3{
+        font-size: 10px;
+        top: 43%;
+    }
+    .project0p1{
+        font-size: 10px;
+        top: 48%;
+    }
+    .project0p2{
+        font-size: 10px;
+        top: 50%;
+    }
+    .project0p3{
+        font-size: 10px;
+        top: 52%;
+    }
+    .projectp4{
+        font-size: 12px;
+        left: 5%;
+        top: 55%;
+    }
+    .project3, .project4, .project5, .project6{
+        width: 99px;
+        height: 73px;
+    }
+    .divprojects{
+        top: 60%;
+    }
+    .projectp5{
+        font-size: 12px;
+        top: 82%;
+        left: 5%;
+    }
+    .project7, .project8{
+        width: 99px;
+        height: 73px;
+    }
+    .projectsimgs2{
+        top: 86%;
+    }
+    .projecto02{
+        font-size: 10px;
+        top: 96%;
+    }
+}
