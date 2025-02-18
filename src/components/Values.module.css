@@ -603,12 +603,12 @@
     .aboutp{
         font-size: 14px;
         left: 10%;
-        top: 20%;
+        top: 23%;
     }
     .divg{
         width: 388px;
         height: 327px;
-        top: 25%;
+        top: 30%;
         left: 5%;
     }
     .divgp{
@@ -691,7 +691,7 @@
     }
     .imgs1{
         display: grid;
-        grid-template-columns: repeat(3, 135px);
+        grid-template-columns: repeat(3, 115px);
         left: 5%;
         top: 111%;
     }
@@ -737,7 +737,7 @@
     }
     .imgsnew{
         display: grid;
-        grid-template-columns: repeat(3, 135px);
+        grid-template-columns: repeat(3, 115px);
         left: 5%;
         top: 147%;
     }

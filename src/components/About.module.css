@@ -126,15 +126,15 @@
     }
     .aboutp{
       font-size: 13px;
-      top: 20%;
+      top: 24%;
     }
     .abouth2{
       font-size: 18px;
-      top: 33%;
+      top: 39%;
       left: 30%;
     }
     .mentors{
-      top: 40%;
+      top: 47%;
     }
     .mentor1Img, .mentor2Img, .mentor3Img {
       height: 80px;
@@ -159,12 +159,12 @@
     .part0{
       height: 80px;
       width: 80px;
-      top: 70%;
-      left: 18%;
+      top: 86%;
+      left: 11%;
     }
     .parts{
       position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translateX(-50%);
     display: grid;
@@ -177,7 +177,7 @@
     .part7{
       height: 80px;
       width: 80px;
-      top: 70%;
-      left: 64%;
+      top: 87%;
+      left: 68%;
     }
   }
