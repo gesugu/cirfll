@@ -194,22 +194,53 @@
 
 @media screen and (max-width: 450px){
     .projectPageImg{
-        max-width: 450px;
-        height: 130vh;
+        max-width: 100%;
+        height: auto;
+        min-height: 110vh;  /* lowered height */
+    }
+    .projectp, .projectp1, .projectp2, .projectp3, .projectp4, .projectp5, .projecto02{
+        font-size: 12px;
+        position: relative;
+        margin: 5px auto;
+        left: 0;
+        transform: none;
+    }
+    .projectsimgs, .projectsimgs2, .divprojects{
+        flex-direction: column;
+        gap: 15px;
+        width: 90%;
+        left: 5%;
+        top: auto;
+    }
+    .project1, .project2, .project3, .project4, .project5, .project6, .project7, .project8{
+        width: 100%;
+        height: auto;
+        max-height: 200px;
+        object-fit: contain;
     }
     .projectp{
-        font-size: 20px;
+        font-size: 24px;
         top: 13%;
+        left: 5%;
+        width: 90%;
+        text-align: center;
     }
     .projectp1{
-        font-size: 12px;
+        font-size: 16px;
         top: 20%;
+        left: 5%;
+        width: 90%;
+        text-align: center;
     }
     .project1, .project2{
         width: 99px;
         height: 73px;
     }
     .projectsimgs{
+        flex-direction: column;
+        gap: 20px;
+        width: 90%;
+        left: 5%;
         top: 28%;
     }
     .projectp2{
@@ -239,10 +270,16 @@
         top: 55%;
     }
     .project3, .project4, .project5, .project6{
-        width: 99px;
-        height: 73px;
+        width: 100%;
+        height: auto;
+        max-height: 200px;
+        object-fit: contain;
     }
     .divprojects{
+        flex-direction: column;
+        gap: 20px;
+        width: 90%;
+        left: 5%;
         top: 60%;
     }
     .projectp5{
@@ -251,14 +288,112 @@
         left: 5%;
     }
     .project7, .project8{
-        width: 99px;
-        height: 73px;
+        width: 100%;
+        height: auto;
+        max-height: 200px;
+        object-fit: contain;
     }
     .projectsimgs2{
+        flex-direction: column;
+        gap: 20px;
+        width: 90%;
+        left: 5%;
         top: 86%;
     }
     .projecto02{
         font-size: 10px;
         top: 96%;
     }
+    .projecthalf1, .projecthalf2{
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+  .projectPage {
+    min-height: 100vh;
+    padding: 60px 15px;
+    overflow-x: hidden;
+  }
+
+  .projectPageImg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+  }
+
+  .projectp, .projectp1, .projectp2, .projectp4, .projectp5 {
+    position: relative;
+    width: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    margin: 10px auto;
+    font-size: calc(14px + 1vw);
+  }
+
+  .projectsimgs, .projectsimgs2 {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    width: 90%;
+    margin: 20px auto;
+    left: auto;
+  }
+
+  .project1, .project2, .project7, .project8 {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+  }
+
+  .projectp3, .project0p1, .project0p2, .project0p3 {
+    width: 90%;
+    margin: 15px auto;
+    text-align: center;
+    font-size: calc(14px + 0.5vw);
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .divprojects {
+    position: relative;
+    width: 90%;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    left: auto;
+  }
+
+  .projecthalf1, .projecthalf2 {
+    display: grid;
+    gap: 20px;
+  }
+
+  .project3, .project4, .project5, .project6 {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+  }
+
+  .projecto02 {
+    width: 90%;
+    margin: 30px auto;
+    text-align: center;
+    font-size: calc(14px + 0.5vw);
+    line-height: 1.5;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
 }

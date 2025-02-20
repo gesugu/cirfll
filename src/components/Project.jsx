@@ -4,7 +4,6 @@ import { useDispatch, useSelector } from 'react-redux';
 import { searchProductAction } from '../store/PlanetsReducer';
 import { Link } from 'react-router-dom';
 import bcg from "../images/bcg.png"
-import Header from "../components/Header"
 import project1 from "../images/project1.png"
 import project2 from "../images/project2.png"
 import project3 from "../images/project3.png"
@@ -21,7 +20,6 @@ const Project = () => {
     const [filteredItems, setFilteredItems] = useState([]);
     return(
         <div className={classes.projectPage}>
-            <Header className={classes.header} />
             <img className={classes.projectPageImg} src={bcg} alt={bcg} />
             <p className={classes.projectp}>Инновационный проект</p>
             <p className={classes.projectp1}>TOLQYN - Автономная станция мониторинга качества воды:<br /> будущее чистых водоемов</p>

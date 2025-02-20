@@ -229,54 +229,72 @@
 
 @media screen and (max-width: 450px){
     .robotPageImg{
-        max-width: 450px;
-        height: 130vh;
+        max-width: 100%;
+        height: auto;
+        min-height: 80vh;
     }
     .robotp{
-        font-size: 20px;
+        font-size: 24px;
         top: 13%;
+        left: 10%;
+        width: 80%;
+        text-align: center;
+        margin-top: 10px;
     }
     .robotp1{
         font-size: 12px;
         top: 17%;
+        margin: 5px 0;
     }
     .robotp2{
         font-size: 12px;
         top: 23%;
         left: 5%;
+        margin: 5px 0;
     }
     .robotvalues9, .robotvalues10, .robotvalues16{
         width: 97px;
         height: 73px;
     }
     .robotimgs{
-        top: 29%;
-        left: 13%;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        width: 90%;
+        left: 5%;
+        top: 35%;
     }
     .robotp3{
         font-size: 12px;
         top: 39%;
         left: 5%;
+        margin: 5px 0;
     }
     .robotp4{
         font-size: 20px;
         top: 53%;
+        margin: 5px 0;
     }
     .divrobotimg{
-        width: 97px;
-        height: 73px;
+        width: 100%;
+        height: auto;
+        max-height: 150px;
+        object-fit: contain;
     }
     .divrobot1p{
         font-size: 12px;
     }
     .divrobot0{
+        flex-direction: column;
+        gap: 20px;
         top: 60%;
+        left: 5%;
+        width: 90%;
     }
     .robotbtn{
-        width: 120px;
-        height: 50px;
-        margin-top: 150px;
-        left: 20%;
+        width: 80%;
+        height: 35px;
+        margin: 10px auto;
     }
     .robotbtnp{
         font-size: 10px;
@@ -284,10 +302,13 @@
     .robotp5{
         font-size: 20px;
         top: 83%;
+        margin: 5px 0;
     }
     .robot2img, .robot3img, .robot4img{
-        width: 97px;
-        height: 73px;
+        width: 100%;
+        height: auto;
+        max-height: 150px;
+        object-fit: contain;
     }
     .robotbtnp2{
         font-size: 10px;
@@ -299,21 +320,133 @@
         font-size: 10px;
     }
     .robotbtn2{
-        width: 120px;
-        height: 50px;
+        width: 80%;
+        height: 35px;
+        margin: 10px auto;
     }
     .robotbtn3{
-        width: 120px;
-        height: 50px;
+        width: 80%;
+        height: 35px;
+        margin: 10px auto;
     }
     .robotbtn4{
-        width: 120px;
-        height: 50px;
+        width: 80%;
+        height: 35px;
+        margin: 10px auto;
     }
     .divrobotpar{
-        top: 87%;
-        display: grid;
-        grid-template-columns: repeat(3, 140px);
+        grid-template-columns: 1fr;
+        gap: 30px;
+        width: 90%;
         left: 5%;
+        top: 87%;
     }
+}
+
+@media screen and (max-width: 768px) {
+  .robotPage {
+    min-height: 100vh;
+    padding: 60px 15px;
+    overflow-x: hidden;
+  }
+  
+  .robotPageImg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+
+  .robotp, .robotp1, .robotp2, .robotp4, .robotp5 {
+    position: relative;
+    width: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    margin: 10px auto;
+    font-size: calc(14px + 1vw);
+  }
+
+  .robotimgs {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  .robotvalues9, .robotvalues10, .robotvalues16 {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+  }
+
+  .robotp3 {
+    width: 90%;
+    margin: 30px auto;
+    text-align: center;
+    font-size: calc(14px + 0.5vw);
+    line-height: 1.5;
+  }
+
+  .divrobot0 {
+    flex-direction: column;
+    width: 90%;
+    margin: 30px auto;
+    gap: 20px;
+    position: static;
+  }
+
+  .divrobotimg {
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  .divrobot1p {
+    width: 100%;
+    text-align: center;
+    font-size: calc(14px + 0.5vw);
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+
+  .robotbtn {
+    width: 80%;
+    max-width: 300px;
+    height: auto;
+    padding: 15px;
+    margin: 20px auto;
+  }
+
+  .divrobotpar {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    width: 90%;
+    margin: 30px auto;
+    left: auto;
+    top: auto;
+  }
+
+  .robot2img, .robot3img, .robot4img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+  }
+
+  .robotbtn2, .robotbtn3, .robotbtn4 {
+    width: 80%;
+    max-width: 250px;
+    margin: 15px auto;
+    padding: 10px;
+  }
 }

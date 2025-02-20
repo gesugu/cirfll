@@ -26,6 +26,11 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
   background-color: rgba(228, 227, 227, 0.68);
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
 }
 ol, ul {
 	list-style: none;
@@ -65,4 +70,63 @@ table {
   
 	/* Support for IE. */
 	font-feature-settings: 'liga';
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Responsive typography */
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 14px;
   }
+}
+
+@media screen and (max-width: 450px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+/* Custom Scrollbar Styles */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(
+        transparent,
+        rgba(32, 149, 242, 0.8)
+    );
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(
+        transparent,
+        rgba(32, 149, 242, 1)
+    );
+}
+
+/* Firefox scrollbar */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(32, 149, 242, 0.8) rgba(255, 255, 255, 0.1);
+}

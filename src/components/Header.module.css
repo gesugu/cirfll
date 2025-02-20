@@ -1,54 +1,84 @@
 .headerPage {
-    width: 100%;
-    height: 8.6vh;
-    background-color: rgba(236, 240, 246, 1);
-    display: flex;
-    align-items: center; /* Центрируем содержимое по вертикали */
-    justify-content: flex-start; /* Левое выравнивание содержимого */
-    padding: 0; /* Отступы для содержания */
+  width: 100%;
+  height: 8.6vh;
+  background-color: rgba(236, 240, 246, 1);
+  display: flex;
+  align-items: center; /* Центрируем содержимое по вертикали */
+  justify-content: flex-start; /* Левое выравнивание содержимого */
+  padding: 0; /* Отступы для содержания */
+}
+
+.headerPageParentDP {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 12vw;
+  height: 8vh;
+  z-index: 10;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.logo:hover {
+  transform: scale(1.05);
+}
+
+.nav4l{
+  text-decoration: none;
+  list-style: none;
+  color: rgba(170, 65, 0, 1);
+  font-size: 30px;
+  font-family: "Neucha", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.navParent{
+  display: flex;
+  justify-content: flex-end;
+  gap: 90px;
+  margin-left: 400px;
+  margin-right: 0;
+}
+
+@media screen and (max-width: 450px){
+  .headerPage{
+    max-width: 450px;
   }
-  
-  .headerPageParentDP {
-    display: flex;
-    align-items: center;
-  }
-  
-  .logo {
-    width: 12vw;
-    height: 8vh;
-    z-index: 10;
-  }
-  .nav4l{
-    text-decoration: none;
-    list-style: none;
-    color: rgba(170, 65, 0, 1);
-    font-size: 30px;
-    font-family: "Neucha", serif;
-    font-weight: 400;
-    font-style: normal;
+  .logo{
+    width: 72px;
+    height: 26px;
   }
   .navParent{
-    display: flex;
-    justify-content: flex-end;
-    gap: 90px;
-    margin-left: 400px;
-    margin-right: 0;
+    margin: 0;
+    gap: 15px;
+    margin-left: 40px;
   }
+  .nav4l{
+    font-size: 15px;
+  }
+}
 
-  @media screen and (max-width: 450px){
-    .headerPage{
-      max-width: 450px;
-    }
-    .logo{
-      width: 72px;
-      height: 26px;
-    }
-    .navParent{
-      margin: 0;
-      gap: 15px;
-      margin-left: 40px;
-    }
-    .nav4l{
-      font-size: 15px;
-    }
+@media screen and (max-width: 768px) {
+  .headerPage {
+    height: auto;
+    padding: 10px 0;
   }
+  .navParent {
+    margin-left: 0;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 10px;
+  }
+  .nav4l {
+    font-size: 16px;
+    white-space: nowrap;
+  }
+  .logo {
+    width: 80px;
+    height: auto;
+    margin-left: 10px;
+  }
+}

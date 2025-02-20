@@ -1,0 +1,81 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(
+        to right,
+        rgba(30, 153, 161, 0.95),
+        rgba(11, 56, 59, 0.95)
+    );
+    backdrop-filter: blur(10px);
+    padding: 20px 0;
+    z-index: 10;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footerContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logos {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.logo, .firstLogo {
+    height: 40px;
+    width: auto;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.logo:hover, .firstLogo:hover {
+    transform: scale(1.05);
+}
+
+.links {
+    display: flex;
+    gap: 30px;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-family: "Press Start 2P", serif;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.link:hover {
+    color: #1e99a1;
+    transform: translateY(-2px);
+}
+
+@media screen and (max-width: 768px) {
+    .footerContent {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .logos {
+        gap: 20px;
+    }
+    
+    .logo, .firstLogo {
+        height: 30px;
+    }
+    
+    .link {
+        font-size: 12px;
+    }
+}
