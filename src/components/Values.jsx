@@ -6,7 +6,6 @@ import { Link } from 'react-router-dom';
 import logo from "../images/logo.png"
 import MyLoader from "../components/UI/loader/MyLoader"
 import bcg from "../images/bcg.png"
-import Header from "../components/Header"
 import values1 from "../images/values1.png"
 import values2 from "../images/values2.png"
 import values3 from "../images/values3.png"
@@ -30,9 +29,9 @@ const Values = () => {
     const [filteredItems, setFilteredItems] = useState([]);
     return(
         <div className={classes.aboutPage}>
-            <Header className={classes.header} />
             <img className={classes.aboutPageImg} src={bcg} alt={bcg} />
             <h1 className={classes.abouth1}>Мы - команда Skillset!</h1>
+            <br></br><br></br>
             <div className={classes.divp}>
             <p className={classes.aboutp}>Наши ценности - наша сила!</p>
             <div className={classes.divg}>

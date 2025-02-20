@@ -4,7 +4,6 @@ import { useDispatch, useSelector } from 'react-redux';
 import { searchProductAction } from '../store/PlanetsReducer';
 import { Link } from 'react-router-dom';
 import bcg from "../images/bcg.png"
-import Header from "../components/Header"
 import values9 from "../images/values9.png"
 import values10 from "../images/values10.png"
 import values16 from "../images/values16.png"
@@ -19,7 +18,6 @@ const Robot = () => {
     const [filteredItems, setFilteredItems] = useState([]);
     return(
         <div className={classes.robotPage}>
-            <Header className={classes.header} />
             <img className={classes.robotPageImg} src={bcg} alt={bcg} />
             <p className={classes.robotp}>Наш робот</p>
             <p className={classes.robotp1}>Эволюция наших роботов:<br /> от прототипа к совершенству!</p>

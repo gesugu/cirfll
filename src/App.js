@@ -15,6 +15,7 @@ function App() {
   return (
     <div>
       <BrowserRouter>
+        <Header />
         <Routes>
           <Route path="/" element={<MainPage />} />
           <Route path="/item2/:item_id" element={<ItemOneScreenInfo />} />

@@ -870,7 +870,227 @@
         left: 2%;
     }
     .aboutPageImg{
-        height: 280vh;
-        max-width: 450px;
+        height: auto;
+        min-height: 110vh;  /* reduced from 280vh */
     }
+    .abouth1 {
+        font-size: 17px;
+        top: auto;
+        margin-top: 10px;
+    }
+    .aboutp{
+        font-size: 14px;
+        top: auto;
+        margin-top: 5px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .aboutPage {
+        position: relative;
+        overflow-x: hidden;
+        width: 100%;
+    }
+    
+    .aboutPageImg {
+        width: 100%;
+        height: auto;
+        min-height: 280vh;
+        object-fit: cover;
+    }
+    
+    .abouth1 {
+        font-size: 24px;
+        width: 90%;
+        left: 5%;
+        text-align: center;
+        top: 13%;
+        margin-bottom: 35px; /* Increased spacing */
+    }
+    
+    .aboutp {
+        font-size: 18px;
+        width: 90%;
+        left: 5%;
+        text-align: center;
+        top: 25%; /* Increased from 23% to create more space from title */
+        margin-bottom: 15px;
+        position: absolute;
+        z-index: 2;
+    }
+    
+    .divg {
+        width: 90%;
+        left: 5%;
+        height: auto;
+        min-height: 350px; /* Increased height to prevent overlap */
+        padding: 20px;
+        top: 35%; /* Adjusted to add more space */
+        position: absolute;
+        z-index: 1;
+    }
+    
+    .divgp {
+        position: relative;
+        font-size: 14px;
+        width: 100%;
+        left: 0;
+        top: 5%;
+        margin-bottom: 20px;
+    }
+    
+    .divgp2 {
+        position: relative;
+        font-size: 14px;
+        width: 100%;
+        left: 0;
+        top: 10%;
+        margin-bottom: 20px;
+    }
+    
+    .divgp3 {
+        position: relative;
+        font-size: 14px;
+        width: 100%;
+        left: 0;
+        top: 15%;
+    }
+    
+    .divp3 {
+        font-size: 18px;
+        width: 90%;
+        left: 5%;
+        text-align: center;
+        top: 80%;
+        position: absolute;
+        z-index: 2;
+        margin-bottom: 40px; /* Increased spacing */
+    }
+    
+    .divg0 {
+        width: 90%;
+        left: 5%;
+        height: auto;
+        min-height: 60px;
+        padding: 15px;
+        top: 95%; /* Increased spacing from divp3 */
+        position: absolute;
+        z-index: 1;
+    }
+    
+    /* ...rest of existing mobile styles... */
+}
+
+@media screen and (max-width: 768px) {
+  .aboutPage {
+    min-height: 100vh;
+    padding: 60px 15px;
+    overflow-x: hidden;
+  }
+  .header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+  }
+  .aboutPageImg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+  /* Text adjustments */
+  .abouth1, .aboutp, .divp2p, .divp3p, .divnewp, .divprelastp, .divlastp {
+    position: relative;
+    width: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    margin: 20px auto;
+    font-size: 20px;
+  }
+  /* Gradient boxes */
+  .divg, .divg0, .divg1, .divnew, .divprelast, .divlast {
+    position: relative;
+    width: 90%;
+    margin: 50px auto;
+    padding: 20px;
+    left: auto;
+    top: auto;
+  }
+  /* Box content */
+  .divgp, .divgp2, .divgp3, .divgp0, .divgp1, .divnew2, .divprelast2, .divlast2 {
+    position: relative;
+    font-size: 16px;
+    margin: 10px 0;
+    top: auto;
+    left: auto;
+  }
+  /* Image grids */
+  .imgs, .imgs1, .imgsnew, .imgsprelast, .imgslast {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    width: 90%;
+    margin: 20px auto;
+    left: auto;
+    top: auto;
+  }
+  /* Images */
+  .values1, .values2, .values3,
+  .values4, .values5, .values6,
+  .values7, .values8, .values9,
+  .values10, .values11, .values12, .values13,
+  .values14, .values15 {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1;
+  }
+  /* Description paragraphs */
+  .divp2p0, .divp3p0, .div4pnew, .div4prenew, .div4last {
+    position: relative;
+    width: 90%;
+    margin: 20px auto;
+    font-size: 16px;
+    text-align: center;
+    top: auto;
+    left: auto;
+  }
+  /* List items */
+  .divp2p1, .divp2p2, .divp2p3,
+  .divp3p1, .divp3p2, .divp3p3,
+  .divnew6p1, .divnew6p2, .divnewp6p3,
+  .divprenew6p1, .divprenew6p2, .divprenewp6p3,
+  .divlast6p1, .divlast6p2, .divlastp6p3 {
+    position: relative;
+    width: 85%;
+    margin: 10px auto;
+    font-size: 14px;
+    top: auto;
+    left: auto;
+  }
+  .abouth1, .aboutp, .divp2p, .divp3p {
+      position: relative;
+      margin: 10px auto;
+      font-size: 20px;
+  }
+  .divg, .divg0, .divg1, .divnew, .divprelast, .divlast{
+      position: relative;
+      width: 90%;
+      margin: 30px auto;
+  }
+  .aboutPageImg{
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: auto;
+      min-height: 100vh;
+      object-fit: cover;
+      z-index: -1;
+  }
 }

@@ -2,20 +2,13 @@
   position: relative; 
   width: 100%;
   height: 100vh; 
+  overflow: hidden; /* Add this to contain bubbles */
 }
 .mainPageImg{
   width: 100%;
   height: 100%;
   object-fit: cover;
   position: relative;
-}
-.logo{
-  position: absolute;
-  top: 20px;
-  left: 20px;
-  z-index: 10;
-  width: 13vw;
-  height: 9.6vh;
 }
 .h1Main{
   position: absolute;
@@ -62,15 +55,9 @@
   font-size: 45px;
   color: white;
 }
-.divG{
-  position: absolute;
-  top: 65%;
-  left: 12%;
-}
-.logoG{
-  width: 13vw;
-  height: 9.6vh;
-}
+
+/* Remove .divG, .divG1, .logoG, and related styles */
+
 .h2G1{
   font-family: "Rubik Mono One", serif;
   font-weight: 400;
@@ -78,15 +65,7 @@
   font-size: 45px;
   color: white;
 }
-.divG1{
-  position: absolute;
-  top: 65%;
-  left: 61%;
-}
-.logoG1{
-  width: 7vw;
-  height: 11vh;
-}
+
 .link{
   text-decoration: none;
   list-style: none;
@@ -98,16 +77,92 @@
   color: white;
 }
 
+.typingText {
+    color: white;
+    font-family: "Press Start 2P", serif;
+    font-size: 40px;
+    margin-top: 20px;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid white;
+    width: 0;
+    animation: typing 3.5s steps(12) 1s forwards,
+               blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: white }
+}
+
+@keyframes bubble {
+    0% {
+        transform: translateY(100%) scale(0);
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.8;
+    }
+    100% {
+        transform: translateY(-100vh) scale(2);
+        opacity: 0;
+    }
+}
+
+.exploreButton {
+    margin-top: 40px;
+    position: relative;
+    padding: 20px 40px;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 30px;
+    color: white;
+    font-family: "Press Start 2P", serif;
+    font-size: 20px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.exploreButton::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 0;
+    height: 0;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    transition: width 0.6s ease, height 0.6s ease;
+}
+
+.exploreButton:hover::before {
+    width: 300px;
+    height: 300px;
+}
+
+.exploreButton span {
+    position: relative;
+    z-index: 1;
+}
+
 @media screen and (max-width: 450px){
   .mainPageImg{
     max-width: 450px;
-    height: 100%;
+    height: auto;
   }
   .h1Mainh{
     font-size: 25px;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
     text-align: center;
   }
   .divG61{
@@ -120,20 +175,128 @@
   .h2G1{
     font-size: 20px;
   }
-  .logoG{
-    width: 117px;
-    height: 41px;
+  .typingText {
+    font-size: 20px;
+    margin-top: 10px;
   }
-  .logoG1{
-    width: 62px;
-    height: 46px;
+  .exploreButton {
+    padding: 12px 24px;
+    font-size: 14px;
   }
-  .logo{
-    width: 142px;
-    height: 41px;
+  .bubble4 { width: 30px; height: 30px; }
+  .bubble5 { width: 20px; height: 20px; }
+  .bubble6 { width: 35px; height: 35px; }
+  .bubble7 { width: 25px; height: 25px; }
+}
+
+@media screen and (max-width: 768px) {
+  .mainPage {
+    min-height: 100vh;
+    overflow: hidden;
+  }
+
+  .mainPageImg {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .h1Main {
+    width: 90%;
+    font-size: calc(24px + 2vw);
+    text-align: center;
+    white-space: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .divG61 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  .typingText {
+    font-size: calc(16px + 1vw);
+    margin-top: 15px;
+  }
+  .exploreButton {
+    padding: 15px 30px;
+    font-size: 16px;
   }
 }
 
-/* @media (max-width: 450px){
+/* Add new bubble animations for main section */
+.mainPage::before,
+.mainPage::after {
+    content: '';
+    position: absolute;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    animation: bubble 15s infinite;
+    z-index: 1;
+}
 
-} */
+.mainPage::before {
+    width: 60px;
+    height: 60px;
+    left: 15%;
+    bottom: -100px;
+    animation-delay: 1s;
+}
+
+.mainPage::after {
+    width: 40px;
+    height: 40px;
+    left: 85%;
+    bottom: -100px;
+    animation-delay: 3s;
+}
+
+.bubble4,
+.bubble5,
+.bubble6,
+.bubble7 {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 50%;
+    z-index: 1;
+    bottom: -100px;
+}
+
+.bubble4 {
+    width: 45px;
+    height: 45px;
+    left: 30%;
+    animation: bubble 17s infinite;
+    animation-delay: 2s;
+}
+
+.bubble5 {
+    width: 25px;
+    height: 25px;
+    left: 70%;
+    animation: bubble 13s infinite;
+    animation-delay: 5s;
+}
+
+.bubble6 {
+    width: 55px;
+    height: 55px;
+    left: 45%;
+    animation: bubble 19s infinite;
+    animation-delay: 7s;
+}
+
+.bubble7 {
+    width: 35px;
+    height: 35px;
+    left: 90%;
+    animation: bubble 16s infinite;
+    animation-delay: 4s;
+}
